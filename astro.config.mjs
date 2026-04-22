@@ -6,7 +6,8 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   output: 'static', // Explicitly specify static output (which is also the default)
-  site: 'https://github.com/johnboi33/Galaxy',
+  site: 'https://github.com/johnboi33',
+  base:  '/Galaxy',
   // Enable built-in image optimization with specific settings
   image: {
     service: {
